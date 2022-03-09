@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #2F323A;
+    color: #eee;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+label{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+input{
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;  
+    padding: 5px;
+    border: 0.2rem solid rgba(0, 0, 0, 0.972);
+    width: 24rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+button{
+    box-sizing: border-box;
+    background-color: #6D7174;
+    color: #eee;
+    border: none;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 24rem;
+    cursor: pointer;
+    transition: transform 130ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+ol{
+    border: 3px solid #6D7174;
+}
+
+li{
+    font-size: 1.5rem;
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+li:nth-child(even){
+    background-color: #6D7174;
+}
+
+.media-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    font-size: 1.8rem;
+    width: 220px;
+    border: 3px solid #6D7174;
+    background-color: #eee;
+    color: #000;
+    font-weight: 700;
+}
